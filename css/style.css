@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --main-color:#19283F;
+    --active:#33C4A3;
+    --green: #33d1cc;
+    --section:#eff7fa;
+}
+i{
+    font-family: 'Font Awesome 6 Free' !important;
+}
+.section{
+    background-color: var(--section);
+}
+.text-items{}
+.text-items h2{
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 500;
+}
+.text-items p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.text-items span{
+    margin: 0 auto;
+    width: 150px;
+    height: 2px;
+    background-color: var(--green);
+}
+/* ========== start navbar ========== */
+.text-main{
+    color: var(--main-color) ;
+}
+.active,
+.nav-link:hover{
+    color: var(--active) !important;
+}
+.bg-main{
+    background-color: var(--main-color);
+}
+.nav-link{
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 400;
+}
+.btn-main{
+    background-color: #FF3150;
+}
+.btn-text{
+    color: #ffc400;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 0.5rem 1rem !important;
+}
+.btn:hover{
+    color: #ffc400 !important;
+}
+button[aria-expanded="false"]{
+    border: 1px solid #dee2e6!important;
+}
+button[aria-expanded="true"]{
+    border: 1px solid var(--active) !important;
+}
+/* ========== end navbar ========== */
+
+/* ========== start header ========== */
+header{
+    height: calc(100vh - 70px);
+}
+header h1{
+    font-size: 34px;
+    line-height: 41px;
+    font-weight: 500;
+}
+header p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.services .card i,.green{
+    color: var(--green);
+}
+.services .card h5{
+    font-size: 1.4375rem;
+    line-height: 27px;
+    font-weight: 500;
+}
+.services .card p{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+/* ========== end header ========== */
+
+/* ========== start port ========== */
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.port .links a{
+    font-size: 1rem;
+    line-height: 24px;
+    color: black;
+    font-weight: 400;
+    padding: 6px 1rem;
+}
+.pactive{
+    color: #ffc400 !important;
+
+}
+.port .links a:hover{
+    color: #FF3150;
+}
+.bg{
+    background-color: rgb(51 209 204);
+}
+.port .box .box-items{
+    background-color: rgb(51 209 204 / .7);
+    transform: translateX(-100%);
+    transition: .3s 0s all linear;
+}
+.port .box:hover .box-items{
+    transform: translateX(0);
+}
+/* ========== end port ========== */
